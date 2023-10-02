@@ -33,7 +33,14 @@
 
     <!------------------------------barra superior------------------------------>
     <nav class="navbar sticky-top navbar-expand-custom navbar-mainbg">
-        <a class="navbar-brand " href="#">Javier-Rincon.com</a>
+        
+        <a class="navbar-brand mr-4"  href="#">Javier-Rincon.com</a>
+        
+        <!-- <h1 class="display-5 text-left pt-0 m-0 pb-3">micorreo@Javier-Rincon.com</h1> -->
+
+        <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars text-white"></i>
+            </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto ">
@@ -73,7 +80,7 @@
         <section id="seccion_quien_soy">
             <div class="container my-3 pt-5">
                 <div class="row align-items-center animate__animated animate__bounceInRight">
-                    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="p-5 col-sm-1 col-md-4 col-lg-4 col-xl-4">
                         <img src="img/avatar.jpg" class="img-fluid w-100 rounded-circle " alt="Image" />
                     </div>
                     <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
@@ -216,90 +223,88 @@
         <section id="section_portafolio">     
             <div class="container pt-5 pb-3">
                 <h1 class="display-3 text-left ">Portafolio</h1>
-                    <!--  *****  Buttons Section Starts  *****  -->
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <div class="list-inline p-3" id="portfolio-flters">
-                                <button class="filter-button mi-btn" data-filter="*" id="btn_all">Todos</button>
-                                <button class="filter-button mi-btn"  data-filter=".first" id="btn_powerbi">Power BI</button>
-                                <button class="filter-button mi-btn" data-filter=".second" id="btn_sql">SQL</button>
-                                <button class="filter-button mi-btn" data-filter=".third" id="btn_webscraping">Web Scraping</button>
-                                <button class="filter-button mi-btn" data-filter=".fourth" id="btn_python">Python</button>
-                            </div>
+                <!--  *****  Buttons Section Starts  *****  -->
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="list-inline p-3" id="portfolio-flters">
+                            <button class="filter-button mi-btn" data-filter="*" id="btn_all">Todos</button>
+                            <button class="filter-button mi-btn"  data-filter=".first" id="btn_powerbi">Power BI</button>
+                            <button class="filter-button mi-btn" data-filter=".second" id="btn_sql">SQL</button>
+                            <button class="filter-button mi-btn" data-filter=".third" id="btn_webscraping">Web Scraping</button>
+                            <button class="filter-button mi-btn" data-filter=".fourth" id="btn_python">Python</button>
                         </div>
                     </div>
+                </div>
 
                     <!--  *****  Gallery Section Starts  *****  -->
-                    <div class="row portfolio-container">
-                        <!----------------------------------------------------------------->
-                        <div class="col-lg-12 col-md-12 mb-3 portfolio-item first" >
-                            <a href="post.html?article=posts\001_02-08-23\articulo.md" class="card-link " >
-                                <div class="card" >
-                                    <div class="row g-0">
+                <div class="row portfolio-container pb-3">
+                    <!----------------------------------------------------------------->
+                    <div class="col-lg-12 col-md-12 mb-3  portfolio-item first" >
+                        <a href="post.html?article=posts\001_02-08-23\articulo.md" class="card-link " >
+                            <div class="card" >
+                                <div class="row g-0">
 
-                                        <div class="col p-2">
-                                            <p class="card-text text-justify pr-4 pl-4">
-                                                La reingeniería empresarial y el análisis de datos son herramientas esenciales para 
-                                                transformar y adaptar las organizaciones en un mundo empresarial en constante 
-                                                evolución. Descubre su impacto en la adaptación y éxito de las empresas modernas.</p>
-                                        </div>
-                                        <div class="col-md-5 col-lg-2 pl-3">
-                                            <img src="posts\001_02-08-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
-                                        </div>
-                                        <div class="col-md-5 col-lg-2 pl-3">
-                                            <img src="posts\003_28-10-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
-                                        </div>
+                                    <div class="col p-2">
+                                        <p class="card-text text-justify pr-4 pl-4">
+                                            La reingeniería empresarial y el análisis de datos son herramientas esenciales para 
+                                            transformar y adaptar las organizaciones en un mundo empresarial en constante 
+                                            evolución. Descubre su impacto en la adaptación y éxito de las empresas modernas.</p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-2 pl-3">
+                                        <img src="posts\001_02-08-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
+                                    </div>
+                                    <div class="col-md-5 col-lg-2 pl-3">
+                                        <img src="posts\003_28-10-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
                                     </div>
                                 </div>
-                            </a>
-                        </div>    
+                            </div>
+                        </a>
+                    </div>    
 
-                                            <!----------------------------------------------------------------->
-                        <div class="col-lg-12 col-md-12 mb-3 portfolio-item second" >
-                            <a href="post.html?article=posts\001_02-08-23\articulo.md" class="card-link " >
-                                <div class="card" >
-                                    <div class="row g-0">
-                                        <div class="col p-2">
-                                            <p class="card-text text-justify pr-4 pl-4">
-                                                La reingeniería empresarial y el análisis de datos son herramientas esenciales para 
-                                                transformar y adaptar las organizaciones en un mundo empresarial en constante 
-                                                evolución. Descubre su impacto en la adaptación y éxito de las empresas modernas.</p>
-                                        </div>
-                                        <div class="col-md-5 col-lg-2 pl-3">
-                                            <img src="posts\001_02-08-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
-                                        </div>
-                                        <div class="col-md-5 col-lg-2 pl-3">
-                                            <img src="posts\003_28-10-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
-                                        </div>
+                                        <!----------------------------------------------------------------->
+                    <div class="col-lg-12 col-md-12 mb-3 mb-3 portfolio-item second" >
+                        <a href="post.html?article=posts\001_02-08-23\articulo.md" class="card-link " >
+                            <div class="card" >
+                                <div class="row g-0">
+                                    <div class="col p-2">
+                                        <p class="card-text text-justify pr-4 pl-4">
+                                            La reingeniería empresarial y el análisis de datos son herramientas esenciales para 
+                                            transformar y adaptar las organizaciones en un mundo empresarial en constante 
+                                            evolución. Descubre su impacto en la adaptación y éxito de las empresas modernas.</p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-2 pl-3">
+                                        <img src="posts\001_02-08-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
+                                    </div>
+                                    <div class="col-md-5 col-lg-2 pl-3">
+                                        <img src="posts\003_28-10-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
                                     </div>
                                 </div>
-                            </a>
-                        </div>    
+                            </div>
+                        </a>
+                    </div>    
 
-                        <!----------------------------------------------------------------->
-                        <div class="col-lg-12 col-md-12 mb-3 portfolio-item first" >
-                            <a href="post.html?article=posts\001_02-08-23\articulo.md" class="card-link " >
-                                <div class="card" >
-                                    <div class="row g-0">
-                                        <div class="col p-2">
-                                            <p class="card-text text-justify pr-4 pl-4">
-                                                La reingeniería empresarial y el análisis de datos son herramientas esenciales para 
-                                                transformar y adaptar las organizaciones en un mundo empresarial en constante 
-                                                evolución. Descubre su impacto en la adaptación y éxito de las empresas modernas.</p>
-                                        </div>
-                                        <div class="col-md-5 col-lg-2 pl-3">
-                                            <img src="posts\001_02-08-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
-                                        </div>
-                                        <div class="col-md-5 col-lg-2 pl-3">
-                                            <img src="posts\003_28-10-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
-                                        </div>
+                    <!----------------------------------------------------------------->
+                    <div class="col-lg-12 col-md-12 mb-3 portfolio-item first" >
+                        <a href="post.html?article=posts\001_02-08-23\articulo.md" class="card-link " >
+                            <div class="card" >
+                                <div class="row g-0">
+                                    <div class="col p-2">
+                                        <p class="card-text text-justify pr-4 pl-4">
+                                            La reingeniería empresarial y el análisis de datos son herramientas esenciales para 
+                                            transformar y adaptar las organizaciones en un mundo empresarial en constante 
+                                            evolución. Descubre su impacto en la adaptación y éxito de las empresas modernas.</p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-2 pl-3">
+                                        <img src="posts\001_02-08-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
+                                    </div>
+                                    <div class="col-md-5 col-lg-2 pl-3">
+                                        <img src="posts\003_28-10-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
                                     </div>
                                 </div>
-                            </a>
-                        </div> 
-                        
-                        
-                    </div>
+                            </div>
+                        </a>
+                    </div>                     
+                </div>
             </div>
         </section>
     <!----------------------------------Blog------------------------------------>

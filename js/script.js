@@ -43,6 +43,7 @@ $(".navbar-toggler").click(function(){
 });
 
 
+
 //------------------------- cambia pestaña al hacer scroll-------
 $(document).ready(function () {
 	// Listener para el scroll
@@ -67,7 +68,6 @@ $(document).ready(function () {
 		});
 	});
 });
-
 
 
 //------------------------- Filtras los proyectos por categorias----------------

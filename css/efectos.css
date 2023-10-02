@@ -112,12 +112,14 @@
 
 @media (max-width: 576px) {
 	.presentacion{
-		font-size: 5rem;
+		font-size: 2px;
+
 	}}
 
 @media (max-width: 992px) {
 	.presentacion{
-		font-size: 7rem;
+		
+		font-size: 2rem;
 	}}
 
 @media (max-width: 1200px) {
@@ -137,6 +139,7 @@
 	padding: 10px 20px;
 	font-size: large;
 	width: 140px;
+	margin: 5px;
   }
   
   .mi-btn:hover {
@@ -153,7 +156,7 @@
 
 /*----------------------portafolio--------------------------*/
 
-  .portfolio-item .portfolio-btn {
+.portfolio-item .portfolio-btn {
 	position: absolute;
 	width: 0;
 	height: 0;
@@ -184,10 +187,13 @@
 	transition: transform 0.2s, box-shadow 0.2s;
   }
 
+
 /*------------------------bootstrap-navbar-css------------------*/
 .navbar-logo{
 	padding: 15px;
-	color: fff;
+	color: #FF6600;
+	font-size: 50px;
+
 }
 .navbar-mainbg{
 	background-color: #006666 ;
@@ -337,6 +343,7 @@
 		left: -25px;
 	}
 }
+
 
 
 
