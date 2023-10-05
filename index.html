@@ -1,374 +1,367 @@
 <!DOCTYPE html>
-<html lang="es" >
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Javier-Rincon</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/efectos.css">
+	<title>www.javier-rincon.com</title>
 </head>
-
 <body>
 
-    <section class=" seccion-con-imagen container-xxl"> <!-- Portada -->
-        <div class="texto row  ">
-            <h1 class="presentacion">Javier Rincon</h1>
+    <!----------------------------------Portada-------------------------------->
+	<section class=" align-items-center seccion-con-imagen container-xxl"> 
+        <div class="texto row align-items-center  ">
+            <h1 class="portada_titulo">Javier Rincon</h1>
+            <h3 class="portada_subtitulo">Ingeniero / Analista de datos / Analista BI</h3>
         </div>
 
         <div class="row arrow-down">
             <div class="izquierda"></div>
             <div class="derecha"></div> 
         </div>
-        
-            <!-- Texto mecanografiado -->
-        <div class='console-container row'>
-            <span id='text'></span>
-            <div class='console-underscore' id='console'>&#95;</div>
-        </div>
-        <script  src="./js/mecanografia.js"></script>
-        <!-- fin de Texto mecanografiado -->
+
     </section>
 
-    <!------------------------------barra superior------------------------------>
-    <nav class="navbar sticky-top navbar-expand-custom navbar-mainbg">
-        <a class=" navbar-logo mr-4"  href="#">Javier-Rincon.com</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars text-white"></i>
-            </button>
+    <!----------------------------------Navbar-------------------------------->
+	<nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-mainbg">
+		<div class="container">
+			<a class="navbar-logo" href="#">Javier-Rincon.com</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto "> 
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto ">
-                <div class="hori-selector"><div class="left"></div>
-                <div class="right"></div></div>
+					<li class="nav-item active">
+						<a class="nav-link" href="#seccion_quien_soy" data-toggle="collapse" data-target=".navbar-collapse.show">
+							<i class="fa-solid fa-address-card fa-2xl"></i>
+							Quien Soy</a>
+					</li>
 
-                <li class="nav-item active">
-                    <a class="nav-link" href="#seccion_quien_soy">
-                        <i class="fa-solid fa-address-card fa-2xl"></i>
-                        Quien Soy</a>
-                </li>
-                <li class="nav-item ">
-                        <a class="nav-link" href="#seccion_herramientas" >
-                            <i class="fa-solid fa-screwdriver-wrench fa-2xl"></i>
-                             Herramientas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link"  href="#section_portafolio">
-                        <i class="fa-solid fa-briefcase fa-2xl"></i>
-                        Portafolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link"  href="#section_blog">
-                        <i class="fa-solid fa-blog fa-2xl"></i>
-                        Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link"  href="#section_contactame">
-                        <i class="fa-solid fa-envelope fa-2xl"></i>
-                        Contactame</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+					<li class="nav-item ">
+							<a class="nav-link" href="#seccion_herramientas" data-toggle="collapse" data-target=".navbar-collapse.show">
+								<i class="fa-solid fa-screwdriver-wrench fa-2xl"></i>
+								 Herramientas</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link"  href="#section_portafolio">
+							<i class="fa-solid fa-briefcase fa-2xl"></i>
+							Portafolio</a>
+					</li>
+                    
+					<li class="nav-item">
+						<a class="nav-link"  href="#section_blog">
+							<i class="fa-solid fa-blog fa-2xl"></i>
+							Blog</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link"  href="#section_contactame">
+							<i class="fa-solid fa-envelope fa-2xl"></i>
+							Contactame</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
     <!----------------------------------About me-------------------------------->
-        <section id="seccion_quien_soy">
-            <div class="container my-3 pt-5">
-                <div class="row align-items-center animate__animated animate__bounceInRight">
-                    <div class="p-5 col-sm-1 col-md-4 col-lg-4 col-xl-4">
-                        <img src="img/avatar.jpg" class="img-fluid w-100 rounded-circle " alt="Image" />
-                    </div>
-                    <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
-                        <h1  class="display-3 text-left">Javier Rincon</h1>
-                        <h3 class="display-5 text-left">Ingeniero / Analista de datos</h3>
-                        <p class="text-justify lead">
-                            ¡Hola a todos! Gracias por visitar mi portafolio. Soy un ingeniero con una apasionante fascinación por el cálculo y la estadística.
-                            Mi enfoque orientado a la resolución creativa y eficiente de problemas me ha llevado a desempeñarme como analista de datos y coordinador de proyectos en el campo del mantenimiento industrial.
-                            Mi pasión por explorar y aplicar las técnicas de análisis de datos me motiva constantemente a abordar desafíos y oportunidades con perspicacia y creatividad.
-                        </p>
-                        <div class="text-right">
-                            <a href="#section_portafolio"><button class="mi-btn" >Portafolio</button></a>   
-                            <a href="path_curriculum"><button class="mi-btn">Resumen</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    <!----------------------------------Mis Herramientas------------------------>
-        <section id="seccion_herramientas">
-            <div class="container py-5" >
-                <h1 class="display-3 text-left pb-3 ">Mis herramientas</h1>
-                    <div class="row align-items-center">
+	<section id="seccion_quien_soy">
+		<div class="container my-3 pt-5">
+			<div class="row align-items-center animate__animated animate__bounceInRight">
+				<div class="p-5 col-sm-1 col-md-4 col-lg-4 col-xl-4">
+					<img src="img/avatar.jpg" class="img-fluid w-100 rounded-circle " alt="Image" />
+				</div>
+				<div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+					<h1  class="display-3 text-left">Javier Rincon</h1>
+					<h3 class="display-5 text-left">Ingeniero / Analista de datos</h3>
+					<p class="text-justify lead">
+						¡Hola a todos! Gracias por visitar mi portafolio. Soy un ingeniero con una apasionante fascinación por el cálculo y la estadística.
+						Mi enfoque orientado a la resolución creativa y eficiente de problemas me ha llevado a desempeñarme como analista de datos y coordinador de proyectos en el campo del mantenimiento industrial.
+						Mi pasión por explorar y aplicar las técnicas de análisis de datos me motiva constantemente a abordar desafíos y oportunidades con perspicacia y creatividad.
+					</p>
+					<div class="text-right">
+						<a href="#section_portafolio"><button class="mi-btn" >Portafolio</button></a>   
+						<a href="path_curriculum"><button class="mi-btn">Resumen</button></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-                        <div class="col-md-6">
-                            <div class="skill mb-4 d-flex align-items-center"> <!-- Agregamos d-flex y align-items-center -->
-                                <img src="img/powerBi.png" alt="HTML Logo" width="50"> <!-- Imagen HTML -->
-                                <div class="ml-3 w-100"> <!-- Agregamos un margen izquierdo -->
-                                    <div class="d-flex justify-content-between ">
-                                        <h6 class="font-weight-bold">Power BI</h6>
-                                        <h6 class="font-weight-bold">70%</h6>
-                                    </div>
-                                    <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar progress-bar-striped bg-warning" style="width: 70%"></div>
-                                    </div>
+    <!----------------------------------Mis Herramientas------------------------>
+    <section id="seccion_herramientas">
+        <div class="container py-5" >
+            <h1 class="display-3 text-left pb-3 ">Mis herramientas</h1>
+                <div class="row align-items-center">
+
+                    <div class="col-md-6">
+                        <div class="skill mb-4 d-flex align-items-center"> <!-- Agregamos d-flex y align-items-center -->
+                            <img src="img/powerBi.png" alt="HTML Logo" width="50"> <!-- Imagen HTML -->
+                            <div class="ml-3 w-100"> <!-- Agregamos un margen izquierdo -->
+                                <div class="d-flex justify-content-between ">
+                                    <h6 class="font-weight-bold">Power BI</h6>
+                                    <h6 class="font-weight-bold">70%</h6>
+                                </div>
+                                <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar progress-bar-striped bg-warning" style="width: 70%"></div>
                                 </div>
                             </div>
-                            
-                            <div class="skill mb-4 d-flex align-items-center"> <!-- Agregamos d-flex y align-items-center -->
-                                <img src="img/excel.png" alt="HTML Logo" width="50"> <!-- Imagen HTML -->
-                                <div class="ml-3 w-100"> <!-- Agregamos un margen izquierdo -->
-                                    <div class="d-flex justify-content-between ">
-                                        <h6 class="font-weight-bold">Exel</h6>
-                                        <h6 class="font-weight-bold">74%</h6>
-                                    </div>
-                                    <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar progress-bar-striped bg-success" style="width: 74%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="skill mb-4 d-flex align-items-center"> <!-- Agregamos d-flex y align-items-center -->
-                                <img src="img/git.png" alt="HTML Logo" width="50"> <!-- Imagen HTML -->
-                                <div class="ml-3 w-100"> <!-- Agregamos un margen izquierdo -->
-                                    <div class="d-flex justify-content-between ">
-                                        <h6 class="font-weight-bold">Git y GitHub</h6>
-                                        <h6 class="font-weight-bold">85%</h6>
-                                    </div>
-                                    <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar progress-bar-striped bg-danger" style="width: 85%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="skill mb-4 d-flex align-items-center"> <!-- Agregamos d-flex y align-items-center -->
-                                <img src="img/scrum.png" alt="HTML Logo" width="50"> <!-- Imagen HTML -->
-                                <div class="ml-3 w-100"> <!-- Agregamos un margen izquierdo -->
-                                    <div class="d-flex justify-content-between ">
-                                        <h6 class="font-weight-bold">Metodologias Agiles</h6>
-                                        <h6 class="font-weight-bold">50%</h6>
-                                    </div>
-                                    <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar progress-bar-striped bg-info" style="width: 50%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            
                         </div>
                         
-                        <div class="col-md-6">
-
-                            <div class="skill mb-4 d-flex align-items-center"> <!-- Agregamos d-flex y align-items-center -->
-                                <img src="img/sqlServer.png" alt="HTML Logo" width="50"> <!-- Imagen HTML -->
-                                <div class="ml-3 w-100"> <!-- Agregamos un margen izquierdo -->
-                                    <div class="d-flex justify-content-between ">
-                                        <h6 class="font-weight-bold">SQL</h6>
-                                        <h6 class="font-weight-bold">75%</h6>
-                                    </div>
-                                    <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar progress-bar-striped bg-danger" style="width: 75%"></div>
-                                    </div>
+                        <div class="skill mb-4 d-flex align-items-center"> <!-- Agregamos d-flex y align-items-center -->
+                            <img src="img/excel.png" alt="HTML Logo" width="50"> <!-- Imagen HTML -->
+                            <div class="ml-3 w-100"> <!-- Agregamos un margen izquierdo -->
+                                <div class="d-flex justify-content-between ">
+                                    <h6 class="font-weight-bold">Exel</h6>
+                                    <h6 class="font-weight-bold">74%</h6>
+                                </div>
+                                <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar progress-bar-striped bg-success" style="width: 74%"></div>
                                 </div>
                             </div>
-                            
-                            <div class="skill mb-4 d-flex align-items-center"> <!-- Agregamos d-flex y align-items-center -->
-                                <img src="img/python.png" alt="HTML Logo" width="50"> <!-- Imagen HTML -->
-                                <div class="ml-3 w-100"> <!-- Agregamos un margen izquierdo -->
-                                    <div class="d-flex justify-content-between ">
-                                        <h6 class="font-weight-bold">Python</h6>
-                                        <h6 class="font-weight-bold">55%</h6>
-                                    </div>
-                                    <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar progress-bar-striped " style="width: 55%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="skill mb-4 d-flex align-items-center"> <!-- Agregamos d-flex y align-items-center -->
-                                <img src="img/BigQuery.png" alt="HTML Logo" width="50"> <!-- Imagen HTML -->
-                                <div class="ml-3 w-100"> <!-- Agregamos un margen izquierdo -->
-                                    <div class="d-flex justify-content-between ">
-                                        <h6 class="font-weight-bold">BigQuery</h6>
-                                        <h6 class="font-weight-bold">65%</h6>
-                                    </div>
-                                    <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar progress-bar-striped bg-info" style="width: 50%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="skill mb-4 d-flex align-items-center"> <!-- Agregamos d-flex y align-items-center -->
-                                <img src="img/aprendiendo.png" alt="HTML Logo" width="50"> <!-- Imagen HTML -->
-                                <div class="ml-3 w-100"> <!-- Agregamos un margen izquierdo -->
-                                    <div class="d-flex justify-content-between ">
-                                        <h6 class="font-weight-bold">Constante Aprendizaje</h6>
-                                        <h6 class="font-weight-bold">100%</h6>
-                                    </div>
-                                    <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar progress-bar-striped bg-danger" style="width: 100%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            
                         </div>
-
+                        
+                        <div class="skill mb-4 d-flex align-items-center"> <!-- Agregamos d-flex y align-items-center -->
+                            <img src="img/git.png" alt="HTML Logo" width="50"> <!-- Imagen HTML -->
+                            <div class="ml-3 w-100"> <!-- Agregamos un margen izquierdo -->
+                                <div class="d-flex justify-content-between ">
+                                    <h6 class="font-weight-bold">Git y GitHub</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar progress-bar-striped bg-danger" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill mb-4 d-flex align-items-center"> <!-- Agregamos d-flex y align-items-center -->
+                            <img src="img/scrum.png" alt="HTML Logo" width="50"> <!-- Imagen HTML -->
+                            <div class="ml-3 w-100"> <!-- Agregamos un margen izquierdo -->
+                                <div class="d-flex justify-content-between ">
+                                    <h6 class="font-weight-bold">Metodologias Agiles</h6>
+                                    <h6 class="font-weight-bold">50%</h6>
+                                </div>
+                                <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar progress-bar-striped bg-info" style="width: 50%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
-            </div>
-        </section>
+                    
+                    <div class="col-md-6">
+
+                        <div class="skill mb-4 d-flex align-items-center"> <!-- Agregamos d-flex y align-items-center -->
+                            <img src="img/sqlServer.png" alt="HTML Logo" width="50"> <!-- Imagen HTML -->
+                            <div class="ml-3 w-100"> <!-- Agregamos un margen izquierdo -->
+                                <div class="d-flex justify-content-between ">
+                                    <h6 class="font-weight-bold">SQL</h6>
+                                    <h6 class="font-weight-bold">75%</h6>
+                                </div>
+                                <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar progress-bar-striped bg-danger" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill mb-4 d-flex align-items-center"> <!-- Agregamos d-flex y align-items-center -->
+                            <img src="img/python.png" alt="HTML Logo" width="50"> <!-- Imagen HTML -->
+                            <div class="ml-3 w-100"> <!-- Agregamos un margen izquierdo -->
+                                <div class="d-flex justify-content-between ">
+                                    <h6 class="font-weight-bold">Python</h6>
+                                    <h6 class="font-weight-bold">55%</h6>
+                                </div>
+                                <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar progress-bar-striped " style="width: 55%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill mb-4 d-flex align-items-center"> <!-- Agregamos d-flex y align-items-center -->
+                            <img src="img/BigQuery.png" alt="HTML Logo" width="50"> <!-- Imagen HTML -->
+                            <div class="ml-3 w-100"> <!-- Agregamos un margen izquierdo -->
+                                <div class="d-flex justify-content-between ">
+                                    <h6 class="font-weight-bold">BigQuery</h6>
+                                    <h6 class="font-weight-bold">65%</h6>
+                                </div>
+                                <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar progress-bar-striped bg-info" style="width: 50%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill mb-4 d-flex align-items-center"> <!-- Agregamos d-flex y align-items-center -->
+                            <img src="img/aprendiendo.png" alt="HTML Logo" width="50"> <!-- Imagen HTML -->
+                            <div class="ml-3 w-100"> <!-- Agregamos un margen izquierdo -->
+                                <div class="d-flex justify-content-between ">
+                                    <h6 class="font-weight-bold">Constante Aprendizaje</h6>
+                                    <h6 class="font-weight-bold">100%</h6>
+                                </div>
+                                <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar progress-bar-striped bg-danger" style="width: 100%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+        </div>
+    </section>
     <!----------------------------------Portafolio------------------------------>
-        <section id="section_portafolio">     
-            <div class="container pt-5 pb-3">
-                <h1 class="display-3 text-left ">Portafolio</h1>
-                <!--  *****  Buttons Section Starts  *****  -->
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <div class="list-inline p-3" id="portfolio-flters">
-                            <button class="filter-button mi-btn" data-filter="*" id="btn_all">Todos</button>
-                            <button class="filter-button mi-btn"  data-filter=".first" id="btn_powerbi">Power BI</button>
-                            <button class="filter-button mi-btn" data-filter=".second" id="btn_sql">SQL</button>
-                            <button class="filter-button mi-btn" data-filter=".third" id="btn_webscraping">Web Scraping</button>
-                            <button class="filter-button mi-btn" data-filter=".fourth" id="btn_python">Python</button>
-                        </div>
+    <section id="section_portafolio">     
+        <div class="container pt-5 pb-3">
+            <h1 class="display-3 text-left ">Portafolio</h1>
+            <!--  *****  Buttons Section Starts  *****  -->
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="list-inline p-3" id="portfolio-flters">
+                        <button class="filter-button mi-btn" data-filter="*" id="btn_all">Todos</button>
+                        <button class="filter-button mi-btn"  data-filter=".first" id="btn_powerbi">Power BI</button>
+                        <button class="filter-button mi-btn" data-filter=".second" id="btn_sql">SQL</button>
+                        <button class="filter-button mi-btn" data-filter=".third" id="btn_webscraping">Web Scraping</button>
+                        <button class="filter-button mi-btn" data-filter=".fourth" id="btn_python">Python</button>
                     </div>
                 </div>
-
-                    <!--  *****  Gallery Section Starts  *****  -->
-                <div class="row portfolio-container pb-3">
-                    <!----------------------------------------------------------------->
-                    <div class="col-lg-12 col-md-12 mb-3  portfolio-item first" >
-                        <a href="post.html?article=posts\001_02-08-23\articulo.md" class="card-link " >
-                            <div class="card" >
-                                <div class="row g-0">
-
-                                    <div class="col p-2">
-                                        <p class="card-text text-justify pr-4 pl-4">
-                                            La reingeniería empresarial y el análisis de datos son herramientas esenciales para 
-                                            transformar y adaptar las organizaciones en un mundo empresarial en constante 
-                                            evolución. Descubre su impacto en la adaptación y éxito de las empresas modernas.</p>
-                                    </div>
-                                    <div class="col-md-5 col-lg-2 pl-3">
-                                        <img src="posts\001_02-08-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
-                                    </div>
-                                    <div class="col-md-5 col-lg-2 pl-3">
-                                        <img src="posts\003_28-10-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>    
-
-                                        <!----------------------------------------------------------------->
-                    <div class="col-lg-12 col-md-12 mb-3 mb-3 portfolio-item second" >
-                        <a href="post.html?article=posts\001_02-08-23\articulo.md" class="card-link " >
-                            <div class="card" >
-                                <div class="row g-0">
-                                    <div class="col p-2">
-                                        <p class="card-text text-justify pr-4 pl-4">
-                                            La reingeniería empresarial y el análisis de datos son herramientas esenciales para 
-                                            transformar y adaptar las organizaciones en un mundo empresarial en constante 
-                                            evolución. Descubre su impacto en la adaptación y éxito de las empresas modernas.</p>
-                                    </div>
-                                    <div class="col-md-5 col-lg-2 pl-3">
-                                        <img src="posts\001_02-08-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
-                                    </div>
-                                    <div class="col-md-5 col-lg-2 pl-3">
-                                        <img src="posts\003_28-10-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>    
-
-                    <!----------------------------------------------------------------->
-                    <div class="col-lg-12 col-md-12 mb-3 portfolio-item first" >
-                        <a href="post.html?article=posts\001_02-08-23\articulo.md" class="card-link " >
-                            <div class="card" >
-                                <div class="row g-0">
-                                    <div class="col p-2">
-                                        <p class="card-text text-justify pr-4 pl-4">
-                                            La reingeniería empresarial y el análisis de datos son herramientas esenciales para 
-                                            transformar y adaptar las organizaciones en un mundo empresarial en constante 
-                                            evolución. Descubre su impacto en la adaptación y éxito de las empresas modernas.</p>
-                                    </div>
-                                    <div class="col-md-5 col-lg-2 pl-3">
-                                        <img src="posts\001_02-08-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
-                                    </div>
-                                    <div class="col-md-5 col-lg-2 pl-3">
-                                        <img src="posts\003_28-10-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>                     
-                </div>
             </div>
-        </section>
+
+                <!--  *****  Gallery Section Starts  *****  -->
+            <div class="row portfolio-container pb-3">
+                <!----------------------------------------------------------------->
+                <div class="col-lg-12 col-md-12 mb-3  portfolio-item first" >
+                    <a href="post.html?article=posts\001_02-08-23\articulo.md" class="card-link " >
+                        <div class="card" >
+                            <div class="row g-0">
+
+                                <div class="col p-2">
+                                    <p class="card-text text-justify pr-4 pl-4">
+                                        La reingeniería empresarial y el análisis de datos son herramientas esenciales para 
+                                        transformar y adaptar las organizaciones en un mundo empresarial en constante 
+                                        evolución. Descubre su impacto en la adaptación y éxito de las empresas modernas.</p>
+                                </div>
+                                <div class="col-md-5 col-lg-2 pl-3">
+                                    <img src="posts\001_02-08-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
+                                </div>
+                                <div class="col-md-5 col-lg-2 pl-3">
+                                    <img src="posts\003_28-10-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>    
+
+                <!----------------------------------------------------------------->
+                <div class="col-lg-12 col-md-12 mb-3 mb-3 portfolio-item second" >
+                    <a href="post.html?article=posts\001_02-08-23\articulo.md" class="card-link " >
+                        <div class="card" >
+                            <div class="row g-0">
+                                <div class="col p-2">
+                                    <p class="card-text text-justify pr-4 pl-4">
+                                        La reingeniería empresarial y el análisis de datos son herramientas esenciales para 
+                                        transformar y adaptar las organizaciones en un mundo empresarial en constante 
+                                        evolución. Descubre su impacto en la adaptación y éxito de las empresas modernas.</p>
+                                </div>
+                                <div class="col-md-5 col-lg-2 pl-3">
+                                    <img src="posts\001_02-08-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
+                                </div>
+                                <div class="col-md-5 col-lg-2 pl-3">
+                                    <img src="posts\003_28-10-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>    
+
+                <!----------------------------------------------------------------->
+                <div class="col-lg-12 col-md-12 mb-3 portfolio-item first" >
+                    <a href="post.html?article=posts\001_02-08-23\articulo.md" class="card-link " >
+                        <div class="card" >
+                            <div class="row g-0">
+                                <div class="col p-2">
+                                    <p class="card-text text-justify pr-4 pl-4">
+                                        La reingeniería empresarial y el análisis de datos son herramientas esenciales para 
+                                        transformar y adaptar las organizaciones en un mundo empresarial en constante 
+                                        evolución. Descubre su impacto en la adaptación y éxito de las empresas modernas.</p>
+                                </div>
+                                <div class="col-md-5 col-lg-2 pl-3">
+                                    <img src="posts\001_02-08-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
+                                </div>
+                                <div class="col-md-5 col-lg-2 pl-3">
+                                    <img src="posts\003_28-10-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>                     
+            </div>
+        </div>
+    </section>
     <!----------------------------------Blog------------------------------------>
-        <section id="section_blog">
-            <div class="container pt-5 pb-3">
-                <h1 class="display-3 text-left pb-3">Blog</h1>
-                    <!----------------------------------------------------------------->
-                    <div class="col-lg-12 col-md-12 mb-3 portfolio-item " >
-                        <a href="post.html?article=posts\001_02-08-23\articulo.md" class="card-link " >
-                            <div class="card" >
-                                <div class="row g-0">
-                                    <div class="col-md-5 col-lg-2 pl-3">
-                                        <img src="posts\001_02-08-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
-                                    </div>
-                                    <div class="col p-2">
-                                        <p class="card-text text-justify pr-4 pl-3">
-                                            La reingeniería empresarial y el análisis de datos son herramientas esenciales para 
-                                            transformar y adaptar las organizaciones en un mundo empresarial en constante 
-                                            evolución. Descubre su impacto en la adaptación y éxito de las empresas modernas.</p>
-                                    </div>
+    <section id="section_blog">
+        <div class="container pt-5 pb-3">
+            <h1 class="display-3 text-left pb-3">Blog</h1>
+                <!----------------------------------------------------------------->
+                <div class="col-lg-12 col-md-12 mb-3 portfolio-item " >
+                    <a href="post.html?article=posts\001_02-08-23\articulo.md" class="card-link " >
+                        <div class="card" >
+                            <div class="row g-0">
+                                <div class="col-md-5 col-lg-2 pl-3">
+                                    <img src="posts\001_02-08-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
+                                </div>
+                                <div class="col p-2">
+                                    <p class="card-text text-justify pr-4 pl-3">
+                                        La reingeniería empresarial y el análisis de datos son herramientas esenciales para 
+                                        transformar y adaptar las organizaciones en un mundo empresarial en constante 
+                                        evolución. Descubre su impacto en la adaptación y éxito de las empresas modernas.</p>
                                 </div>
                             </div>
-                        </a>
-                    </div>           
-                    <!----------------------------------------------------------------->
-                    <div class="col-lg-12 col-md-12 mb-3 portfolio-item " >
-                        <a href="post.html?article=posts\002_10-08-23\articulo.md" class="card-link " >
-                            <div class="card" >
-                                <div class="row g-0">
-                                    <div class="col-md-5 col-lg-2 pl-3">
-                                        <img src="posts\002_10-08-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
-                                    </div>
-                                    <div class="col p-2">
-                                        <p class="card-text text-justify pr-4 pl-3">
-                                            La reingeniería empresarial y el análisis de datos son herramientas esenciales para 
-                                            transformar y adaptar las organizaciones en un mundo empresarial en constante 
-                                            evolución. Descubre su impacto en la adaptación y éxito de las empresas modernas.</p>
-                                    </div>
+                        </div>
+                    </a>
+                </div>           
+                <!----------------------------------------------------------------->
+                <div class="col-lg-12 col-md-12 mb-3 portfolio-item " >
+                    <a href="post.html?article=posts\002_10-08-23\articulo.md" class="card-link " >
+                        <div class="card" >
+                            <div class="row g-0">
+                                <div class="col-md-5 col-lg-2 pl-3">
+                                    <img src="posts\002_10-08-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
+                                </div>
+                                <div class="col p-2">
+                                    <p class="card-text text-justify pr-4 pl-3">
+                                        La reingeniería empresarial y el análisis de datos son herramientas esenciales para 
+                                        transformar y adaptar las organizaciones en un mundo empresarial en constante 
+                                        evolución. Descubre su impacto en la adaptación y éxito de las empresas modernas.</p>
                                 </div>
                             </div>
-                        </a>
-                    </div>           
-                    <!----------------------------------------------------------------->
-                    <div class="col-lg-12 col-md-12 mb-3 portfolio-item " >
-                        <a href="post.html?article=posts\003_28-10-23\articulo.md" class="card-link " >
-                            <div class="card" >
-                                <div class="row g-0">
-                                    <div class="col-md-5 col-lg-2 pl-3">
-                                        <img src="posts\003_28-10-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
-                                    </div>
-                                    <div class="col p-2">
-                                        <p class="card-text text-justify pr-4 pl-3">
-                                            La reingeniería empresarial y el análisis de datos son herramientas esenciales para 
-                                            transformar y adaptar las organizaciones en un mundo empresarial en constante 
-                                            evolución. Descubre su impacto en la adaptación y éxito de las empresas modernas.</p>
-                                    </div>
+                        </div>
+                    </a>
+                </div>           
+                <!----------------------------------------------------------------->
+                <div class="col-lg-12 col-md-12 mb-3 portfolio-item " >
+                    <a href="post.html?article=posts\003_28-10-23\articulo.md" class="card-link " >
+                        <div class="card" >
+                            <div class="row g-0">
+                                <div class="col-md-5 col-lg-2 pl-3">
+                                    <img src="posts\003_28-10-23\portada.jpg" class="img-fluid rounded-start" alt="Proyecto 1">
+                                </div>
+                                <div class="col p-2">
+                                    <p class="card-text text-justify pr-4 pl-3">
+                                        La reingeniería empresarial y el análisis de datos son herramientas esenciales para 
+                                        transformar y adaptar las organizaciones en un mundo empresarial en constante 
+                                        evolución. Descubre su impacto en la adaptación y éxito de las empresas modernas.</p>
                                 </div>
                             </div>
-                        </a>
-                    </div>           
-                <!----------------------------------------------------------------->            
-            </div>
-        </section>
-
-
-        
-
+                        </div>
+                    </a>
+                </div>           
+            <!----------------------------------------------------------------->            
+        </div>
+    </section>
     <!----------------------------------Contacto------------------------------------>
     <section id="section_contactame">
         <div class="container pt-5 pb-3">
@@ -412,7 +405,7 @@
         <div class="footer-basic p-0">
             <footer>
                 <div class="row m-0">
-                    <div class="col-2 col-md-1 pt-1 pr-0 pb-1 pl-2 d-flex align-items-center">
+                    <div class="col-2 col-md-2 pt-1 pr-0 pb-1 pl-2 d-flex align-items-center">
                         <img src="img\JR2.png" class="img-fluid" alt="Mi Logo">
                     </div>
                     <div class="col">
@@ -431,13 +424,8 @@
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
-    <!--   *****   JQuery Link   *****   -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    
     <!--   *****   Isotope Filter Link   *****  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
-   
     <script  src="./js/script.js"></script>
 </body>
 </html>
